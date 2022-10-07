@@ -1,0 +1,145 @@
+
+body {
+  background-image: url(https://i.pinimg.com/736x/19/90/9e/19909ed8738a402b7b7d619987644761.jpg);
+  background-size: cover;
+  margin: 0px;
+}
+.multi-border{
+  border-style: inset;
+  border-color: greenyellow;
+  border-width: 7px;
+  height: 1900px;
+}
+.multi-border::before{
+  content: "";
+  position: absolute;
+  border-style: outset;
+  border-color: greenyellow;
+  border-width: 7px;
+  height: 1886px;
+  width: 1237px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text{
+  border: 6px solid red;
+  background: black;
+  color: aliceblue;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 30px;
+  width: 600px;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+  height: 80px;
+}
+.test {
+  border: 6px solid red;
+  background: black;
+  color: aliceblue;
+  padding: 30px;
+  border-radius: 30px;
+  width: 400px;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+  height: 10px;
+}
+.coke{
+  border: 6px solid red;
+  background: black;
+  color: aliceblue;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  width: 400px;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+  height: 120px;
+}
+.contain{
+  display: flex;
+}
+.cir{
+  background-color: darkcyan;
+  border: 5px solid rgb(111, 104, 104);
+  width: 280px;
+  height: 280px;
+  border-radius: 300px;
+  margin: 100px;
+  font-size: larger;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+  
+  
+}
+.cer{
+  background-color:azure;
+  border: 5px solid rgb(222, 18, 18);
+  border-style:dashed ;
+  width: 400px;
+  height: 750px;
+  margin: 90px;
+  text-align: center;
+  
+  
+}
+.tent{
+  border: 6px solid red;
+  background: black;
+  color: aliceblue;
+  border-radius: 30px;
+  width: 350px;
+  height: 50px;
+  font-style: italic;
+  font-size: 28px; 
+  margin: auto;
+  padding: 10px;
+}
+
+.menu{
+  text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+#continue{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item{
+    color: navy;
+    border: 4px solid rgb(22, 59, 22);
+    background-color: rgb(138, 206, 233);
+    margin: 20px;
+    padding: 0px;
+    width: 300px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#box{ 
+  width: auto;
+}
+
+#ball{
+  position: relative;
+  left: 50px;
+  top: 270px;
+}
+
+#clx{
+  position: relative;
+  right: 150px;
+  top: 5px;
+}
+
